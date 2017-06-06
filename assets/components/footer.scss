@@ -1,0 +1,23 @@
+.footer{
+
+  .mainBlock{
+    text-align: center;
+    margin: 20px;
+
+    .leftTextBlock{
+      text-align: right;
+
+      @media screen and (max-width: 768px) {
+        text-align: center;
+      }
+    }
+
+    .rightTextBlock{
+      text-align: left;
+
+      @media screen and (max-width: 768px) {
+        text-align: center;
+      }
+    }
+  }
+}

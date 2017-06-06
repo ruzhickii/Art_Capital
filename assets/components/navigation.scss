@@ -1,0 +1,41 @@
+.mainBlock {
+  margin: 25px 0 0 0;
+
+  .uList {
+    display: flex;
+    flex-flow: row wrap;
+
+    li {
+      display: inline;
+      padding: 10px 25px;
+      border: 3px solid transparent;
+      border-radius: 5px;
+
+      &:hover {
+        border: 3px solid #ce3e3f;
+        border-radius: 5px;
+        color: #ce3e3f;
+
+        a {
+          color: #ce3e3f;
+        }
+      }
+
+      a {
+        font-size: 18px;
+        text-decoration: none;
+        color: #4b4b4b;
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    flex-flow: column wrap;
+    text-align: center;
+
+    .uList {
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+    }
+  }
+}
